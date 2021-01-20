@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+        <meta name="generator" content="Hugo 0.79.0">
+        <title>Carousel Template · Bootstrap v5.0</title>
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <style>
+            .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                user-select: none;
+            }
+            @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                    font-size: 3.5rem;
+                }
+            }
+            .carousel-caption {
+                padding: 0;
+            }
+            .shadow1 {
+                text-shadow: black 0 0 10px;
+            }
+            .ch-link {
+                text-decoration: none;
+                color: inherit;
+            }
+            .ch-link:hover {
+                color: white;
+            }
+        </style>
+        <link href="https://getbootstrap.com/docs/5.0/examples/carousel/carousel.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/sessions.css">
+    </head>
+    <body style="padding-bottom: 0rem;">
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse" style="font-size: 130%;">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" aria-current="page" href="index.html"><img src="img/iconfinder_filmstrip_1291749.png" alt="" style="height: 32px; background-color: white;"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="films.html">Фiльми</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="sessions.html">Сеанси</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacts.html" >Контакти</a>
+                            </li>
+                        </ul>
+                        <div class="right">
+                            <select class="form-select" aria-label="Default select example" style="background-color: black; color: whitesmoke;">
+                                <option value="1" selected>Київ</option>
+                                <option value="2">Львів</option>
+                                <option value="3">Одеса</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main style="padding-top: 30px;">
+            <div class="container card">
+                <div class="row">
+                    <div class="col-3 card" style="padding-top: 30px;">
+                        <div>
+                            <img class="img-film" src="img/film5.1.jpg" alt="..." style="width: 100%;">
+                        </div>
+                        <div>
+                            <img class="img-film" src="img/film2.1.jpg" alt="..." style="width: 100%;">
+                        </div>
+                        <div class="row">
+                            <img class="img-film" src="img/film3.1.jpg" alt="..." style="width: 100%;">
+                        </div>
+                        <div class="row">
+                            <img class="img-film" src="img/film4.1.jpg" alt="..." style="width: 100%;">
+                        </div>
+                        <div class="row">
+                            <img class="img-film" src="img/film1.1.jpg" alt="..." style="width: 100%;">
+                        </div>
+                    </div>
+                    <div class="col-9" style="padding: 0px; font-size: 20px;">
+                        <div class="parent1">
+                            <div class="child1 border1 text-center">
+                                <div class="border1">18 січня</div>
+                                <div class="row" style="margin: 0px; padding: 0px;">
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_red">11:00</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                        <div class="hall_blue">20:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_red">11:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="child1 border1">
+                                <div class="border1 text-center">19 січня</div>
+                                <div class="row" style="margin: 0px; padding: 0px;">
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_red">11:00</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                        <div class="hall_blue">20:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_red">11:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="child1 border1">
+                                <div class="border1 text-center">20 січня</div>
+                                <div class="row" style="margin: 0px; padding: 0px;">
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_red">11:00</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                        <div class="hall_blue">20:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_red">11:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="child1 border1">
+                                <div class="border1 text-center">21 січня</div>
+                                <div class="row" style="margin: 0px; padding: 0px;">
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_red">11:00</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                        <div class="hall_blue">20:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_red">11:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="child1 border1">
+                                <div class="border1 text-center">22 січня</div>
+                                <div class="row" style="margin: 0px; padding: 0px;">
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_red">11:00</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                        <div class="hall_blue">20:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_red">11:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="child1 border1">
+                                <div class="border1 text-center">23 січня</div>
+                                <div class="row" style="margin: 0px; padding: 0px;">
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_red">11:00</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                        <div class="hall_blue">20:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_red">11:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="child1 border1">
+                                <div class="border1 text-center">24 січня</div>
+                                <div class="row" style="margin: 0px; padding: 0px;">
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_red">11:00</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                        <div class="hall_blue">20:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_red">11:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_orange">18:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                    <div class="col-12 border1 col_h" style="padding: 0px;">
+                                        <div class="hall_blue">9:45</div>
+                                        <div class="hall_orange">10:00</div>
+                                        <div class="hall_blue">14:00</div>
+                                        <div class="hall_red">19:00</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="container">
+                <p class="float-end"><a href="#">Back to top</a></p>
+                <p>&copy; 2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            </footer>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <script src="js/sessions.js"></script>
+    </body>
+</html>

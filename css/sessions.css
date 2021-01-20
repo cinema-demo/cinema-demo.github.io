@@ -1,0 +1,33 @@
+.parent1 {
+    overflow: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    height: 100%;
+}
+.child1 {
+    display: inline-block;
+    vertical-align: top;
+    width: 120px;
+    height: 100%;
+    background-color: lightgray;
+}
+.border1 {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+.hall_blue {
+    background-color: blue;
+    color: red;
+}
+.hall_red {
+    background-color: red;
+    color: blue;
+}
+.hall_orange {
+    background-color: orange;
+    color: blue;
+}
+.hall_blue, .hall_red, .hall_orange {
+    margin: 10px;
+}

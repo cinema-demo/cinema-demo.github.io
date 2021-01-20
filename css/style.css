@@ -1,0 +1,47 @@
+.map {
+    clear: both;
+    height: 490px;
+    margin-bottom: 30px; 
+}
+
+.contact-detail {
+    list-style: none;
+    margin-bottom: 30px; 
+}
+.contact-detail li {
+    padding-left: 30px;
+    position: relative;
+    margin-bottom: 10px; 
+}
+.contact-detail li img {
+    position: absolute;
+    left: 0;
+    top: 5px; 
+}
+.contact-form:after {
+    content: " ";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0; 
+}
+.contact-form input:not([type="submit"]), .contact-form textarea {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-repeat: no-repeat;
+    background-position: 10px 15px;
+    -webkit-transition: .3s ease;
+            transition: .3s ease;
+    outline: none; 
+}
+.contact-form textarea {
+    min-height: 100px; 
+}
+.contact-form input[type="submit"] {
+    float: right; 
+}
