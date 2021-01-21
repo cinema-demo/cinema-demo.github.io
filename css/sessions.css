@@ -30,4 +30,6 @@
 }
 .hall_blue, .hall_red, .hall_orange {
     margin: 10px;
+    border-radius: 10px;
+    text-align: center;
 }
